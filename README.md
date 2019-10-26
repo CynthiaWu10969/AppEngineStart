@@ -37,16 +37,6 @@ non-school related email. Again, **DO NOT USE YOUR SCHOOL EMAIL**.
 After that is done, it'll ask you to pick a cloud project. Since you don't have one, you're
 going to select **Create a new project**. For the project ID, go ahead and name it the following: **dsc-your-university-name**.
 
-## Running a Local Server for Testing
-
-Since all that is done, you are now able to work on the project and change the HMTL, CSS, JS, etc. anything to make your website unique. But wait, how can I view my changes? Well, good thing I asked huh. Luckily for us, the Cloud SDK has a built in tool for running a local instance of your project. In order to do that, you need to type:
-
-```
-C:\Projects\dsc-csusm> dev_appserver.py app.yaml 
-```
-
-Once you run this command, it'll start a local server for your project and you can view your changes in real time. Pretty neat! If you want to stop the server for whatever reason, simply **Ctrl + C**. 
-
 ## Deploying the Website to the Cloud
 
 Now that you have finished your website, the next thing you need to do is deploy the project to the cloud. Open the command line within the project folder and type:
@@ -56,6 +46,17 @@ C:\Projects\dsc-csusm> gcloud app deploy --project [project-id]
 ```
 
 The [project-id] would be **dsc-your-university-name**. This command deploys your project to the cloud. Anytime you want to publish your changes, you have to do this command. In order to view your website, simply visit www.dsc-your-university-name.appspot.com. That's it! You have your own website now.
+
+
+## Running a Local Server for Testing
+
+Since all that is done, you are now able to work on the project and change the HMTL, CSS, JS, etc. anything to make your website unique. But wait, how can I view my changes? Well, good thing I asked huh. Luckily for us, the Cloud SDK has a built in tool for running a local instance of your project. In order to do that, you need to type:
+
+```
+C:\Projects\dsc-csusm> dev_appserver.py app.yaml 
+```
+
+Once you run this command, it'll start a local server for your project and you can view your changes in real time. Pretty neat! If you want to stop the server for whatever reason, simply **Ctrl + C**. 
 
 # FAQ
 
