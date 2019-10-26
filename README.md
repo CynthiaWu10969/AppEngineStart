@@ -1,4 +1,4 @@
-# DSC Website Boilerplate
+# AppEngine Website Basic
 
 # Table of Contents
 
@@ -9,8 +9,6 @@
     - [Running a Local Server for Testing](#running-a-local-server-for-testing)
     - [Deploying the Website to the Cloud](#deploying-the-website-to-the-cloud)
 - [FAQ](#faq)
-- [Authors](#authors)
-- [Contributors](#contributors)
 
 # Getting Started
 
@@ -26,7 +24,7 @@ that site, you need to complete steps 2, 3, and 5 of the **Installing Cloud SDK 
 Clone this repository and cd to it using the command line. Once in the folder, type: 
 
 ```
-    C:\Projects\dsc-csusm> gcloud init 
+    C:\Projects\AppEngineStart> gcloud init 
 ```
 
 This will initialize the gcloud project in the folder.
@@ -64,8 +62,3 @@ The [project-id] would be **dsc-your-university-name**. This command deploys you
 ## How can I get a custom domain instead of the .appspot.com?
 You can read more about getting a custom domain for your app engine project [here](https://cloud.google.com/appengine/docs/standard/python/mapping-custom-domains).
 
-# Authors
-"Alexander Garcia" garci877@cougars.csusm.edu
-
-# Contributors
-"Ace Gabriel Figueroa" figue032@cougars.csusm.edu
